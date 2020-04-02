@@ -11,3 +11,14 @@ exports.con =mysql.createConnection({
     database: "restapi_example",
     debug: false
 });
+
+exports.userData = {
+    id:null,
+    name:null,
+    surname:null,
+    email:null,
+    password:null,
+    createDate:null,
+    updateDate:null,
+    deleteDate:null
+  };
